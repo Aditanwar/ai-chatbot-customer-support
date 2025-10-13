@@ -1,0 +1,16 @@
+{
+  "status": "commited",
+  "type": "frontend",
+  "scope": "codebase",
+  "localEndpoint": "http://localhost:3001",
+  "executionArgs": {
+    "projectName": "chatbot",
+    "projectPath": "C:\\Users\\Utkarsh\\Desktop\\chatbot",
+    "testIds": [],
+    "additionalInstruction": "Test the AI Customer Support Bot chat interface, including message sending, AI responses, session management, and escalation features. Focus on testing the chat functionality, UI responsiveness, and API integration.",
+    "envs": {
+      "API_KEY": "sk-user-_Dl424wXDXrilWsX-ws_Z072Bfibarlgk4aP_Vo0ykHv2CEJJBm0b7Qd2n1VGBRkwy1krqOXt17_WVmDkM9GY_idlcNAvXa-fb0J2GOP84EcWbAq02RIfk4yZnjtB0gY7F0"
+    }
+  },
+  "proxy": "http://18eb21d2-9e68-4ac2-b16f-4cf602ba62c3:5RR3RpbtYyUEIXVzWc4xX8cMrwh9wy1X@tun.testsprite.com:8080"
+}

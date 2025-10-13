@@ -1,0 +1,59 @@
+{
+  "tech_stack": [
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "HTML5",
+    "CSS3",
+    "Google Gemini AI",
+    "Mongoose ODM"
+  ],
+  "features": [
+    {
+      "name": "Express Server",
+      "description": "Main server application with Express.js framework, CORS, and static file serving",
+      "files": ["server.js"]
+    },
+    {
+      "name": "Chat API Routes",
+      "description": "RESTful API endpoints for sending messages and getting conversation history",
+      "files": ["routes/chat.js"]
+    },
+    {
+      "name": "Session Management",
+      "description": "API endpoints for creating, managing, and tracking user sessions",
+      "files": ["routes/session.js"]
+    },
+    {
+      "name": "Gemini AI Service",
+      "description": "AI service integration with Google Gemini API for generating intelligent responses",
+      "files": ["services/geminiService.js"]
+    },
+    {
+      "name": "Session Model",
+      "description": "MongoDB model for storing user sessions, conversation history, and context",
+      "files": ["models/Session.js"]
+    },
+    {
+      "name": "FAQ Model",
+      "description": "MongoDB model for storing frequently asked questions and answers",
+      "files": ["models/FAQ.js"]
+    },
+    {
+      "name": "Chat Interface",
+      "description": "Modern, responsive HTML/CSS/JavaScript frontend for the chat application",
+      "files": ["public/index.html", "public/styles.css", "public/script.js"]
+    },
+    {
+      "name": "FAQ Seeding",
+      "description": "Script to populate the database with sample FAQ data",
+      "files": ["scripts/seedFAQs.js"]
+    },
+    {
+      "name": "Environment Configuration",
+      "description": "Environment variables configuration for API keys and database connection",
+      "files": ["env.example", ".env"]
+    }
+  ]
+}
